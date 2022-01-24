@@ -1,0 +1,19 @@
+﻿<Window x:Class="Containers.Window5"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Containers"
+        mc:Ignorable="d"
+        Title="Window5" Height="450" Width="800">
+    <Grid>
+        <Canvas>
+            <Label Content="Регистрация пользователя" Canvas.Top="15" Canvas.Left="5"/>
+            <Label Content="ФИО" Canvas.Top="35" Canvas.Left="5"/>
+            <TextBox Width="150" Canvas.Top="40" Canvas.Left="60"/>
+            <Label Content="Email" Canvas.Top="55" Canvas.Left="5"/>
+            <TextBox Width="150" Canvas.Top="60" Canvas.Left="60"/>
+            <Button Content="Зарегистрироваться" Canvas.Top="80" Canvas.Left="50"/>
+        </Canvas>
+    </Grid>
+</Window>
